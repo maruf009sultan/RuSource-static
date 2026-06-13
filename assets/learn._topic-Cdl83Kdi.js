@@ -1,0 +1,1 @@
+import{j as n,L as o}from"./index-D8K2P8B3.js";const e=()=>n.jsxs("div",{className:"mx-auto max-w-2xl px-4 py-24 text-center",children:[n.jsx("h1",{className:"font-display text-4xl font-black",children:"Topic not found"}),n.jsx(o,{to:"/",className:"mt-6 inline-block text-signal hover:underline",children:"← Home"})]});export{e as notFoundComponent};

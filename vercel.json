@@ -1,0 +1,25 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/browse", "destination": "/browse.html" },
+    { "source": "/categories", "destination": "/categories.html" },
+    { "source": "/credits", "destination": "/credits.html" },
+    { "source": "/daily", "destination": "/daily.html" },
+    { "source": "/faq", "destination": "/faq.html" },
+    { "source": "/favorites", "destination": "/favorites.html" },
+    { "source": "/glossary", "destination": "/glossary.html" },
+    { "source": "/maruf", "destination": "/maruf.html" },
+    { "source": "/roadmap", "destination": "/roadmap.html" },
+    { "source": "/learn/:topic", "destination": "/learn/:topic.html" },
+    { "source": "/levels/:level", "destination": "/levels/:level.html" },
+    { "source": "/category/:slug", "destination": "/category/:slug.html" }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
